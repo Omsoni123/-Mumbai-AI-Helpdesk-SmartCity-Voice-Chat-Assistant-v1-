@@ -1,26 +1,13 @@
-# --- Core App Dependencies ---
-flask
-flask_cors
-
-# --- LangChain & LLM Integrations ---
-langchain
-langchain-core
-langchain-huggingface
+fastapi
+uvicorn
+starlette
 transformers
-torch
-sentence-transformers
-
-# --- Voice / Speech Features ---
-SpeechRecognition
+langchain
+faiss-cpu
+speechrecognition
 pyttsx3
-gtts
-
-
-# --- Utilities ---
-requests
-python-dotenv
-
-# --- Optional (for better performance / local dev) ---
-tqdm
+pydub
 numpy
-
+python-dotenv
+requests
+gunicorn
