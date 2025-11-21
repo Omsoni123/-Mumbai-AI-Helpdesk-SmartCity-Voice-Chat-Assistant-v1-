@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartCity Mumbai Helpdesk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>SmartCity Bot</h2>
+    <div class="contact-list">
+      <div class="contact">
+        <img src="https://api.iconify.design/mdi:city.svg?color=%2358a6ff" alt="Bot Icon" />
+        <div>
+          <div class="name">Mumbai Info</div>
+          <div class="status">Online</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Section -->
+  <div class="chat-container">
+    <header>🏙️ Mumbai Helpdesk Assistant</header>
+
+    <div id="chatBox" class="chat-box"></div>
+
+    <div class="input-container">
+      <input type="text" id="query" placeholder="Ask about hospitals, colleges, or transport..." />
+      <button id="voiceBtn">🎙️</button>
+      <button id="sendBtn">➤</button>
+    </div>
+
+    <div class="footer">LangChain × FAISS × Flask | Voice Enabled</div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

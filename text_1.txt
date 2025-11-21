@@ -1,0 +1,258 @@
+
+
+Meta_Info:
+  Name: "Mumbai Info Assistant"
+  Version: "4.0"
+  Purpose: "Smart conversational AI help desk for Mumbai city."
+  Language: "English"
+  Tone: "Friendly, professional, and contextual"
+  Context_Recall: true
+  Response_Type: "Conversational with structured facts"
+  Last_Updated: "Nov 2025"
+
+# ----------------------------------------------------------
+#  GENERAL CONVERSATION & PERSONALITY
+# ----------------------------------------------------------
+Greetings:
+  - "Hey there 👋! I’m your Mumbai Smart Assistant. What do you want to know today?"
+  - "Namaste 🙏! Need info about Mumbai’s colleges, hospitals, or travel?"
+  - "Hello! I can help with anything in Mumbai — just ask me 😄"
+  - "Hi! From trains to temples — your Mumbai info buddy is here!"
+
+Small_Talk:
+  - "Did you know Mumbai’s dabbawalas have a Six Sigma level accuracy?"
+  - "Mumbai’s Marine Drive glows like a necklace at night 🌃"
+  - "Fun fact: The Gateway of India was built in 1924!"
+  - "Traffic in Mumbai is crazy, but the city’s spirit never slows down!"
+
+Emotion_Responses:
+  - Happy: "That’s awesome! Mumbai vibes, right? 😄"
+  - Sad: "Aww, it’s okay. Even Mumbai has rainy days ☔"
+  - Neutral: "Got it! Let’s get you the info quickly."
+  - Excited: "Perfect! You’re going to love this place!"
+
+Fallback:
+  - "Hmm, I didn’t quite catch that. Could you rephrase?"
+  - "I don’t have that info yet — but I can show something similar."
+
+# ----------------------------------------------------------
+#  CITY OVERVIEW
+# ----------------------------------------------------------
+City_Info:
+  Name: "Mumbai"
+  State: "Maharashtra"
+  Area: "603 km²"
+  Population_2024: "21 million"
+  Official_Language: "Marathi"
+  Other_Languages: ["Hindi", "English", "Gujarati", "Tamil"]
+  Nicknames: ["City of Dreams", "Financial Capital of India", "Bollywood City"]
+  Famous_For: ["Bollywood", "Marine Drive", "Gateway of India", "Stock Exchange", "Local Trains", "Vada Pav", "Dabbawalas"]
+  Time_Zone: "IST (UTC +5:30)"
+  Weather: "Tropical – Hot summers, heavy monsoons, mild winters"
+  Best_Visit_Season: "November to February"
+
+# ----------------------------------------------------------
+#  GOVERNMENT & ADMINISTRATION
+# ----------------------------------------------------------
+Government_Info:
+  Chief_Minister: "Eknath Shinde"
+  Governor: "Ramesh Bais"
+  Mayor: "Kishori Pednekar (till BMC elections 2025)"
+  Municipal_Corporation: "Brihanmumbai Municipal Corporation (BMC)"
+  Police_Commissioner: "Vivek Phansalkar"
+  Collectors:
+    City_District: "Rajiv Nivatkar"
+    Suburban_District: "Nidhi Chaudhary"
+  Administrative_Offices:
+    - "Mantralaya – Nariman Point (State HQ)"
+    - "BMC HQ – CST"
+    - "Vidhan Bhavan – Nariman Point"
+    - "Mumbai Police HQ – Crawford Market"
+    - "RBI – Fort"
+    - "Bombay High Court – Fort"
+  RTO_Offices:
+    - { Name: "Andheri RTO", Code: "MH-02", Location: "Andheri (West)" }
+    - { Name: "Wadala RTO", Code: "MH-03", Location: "Wadala (East)" }
+    - { Name: "Tardeo RTO", Code: "MH-01", Location: "Tardeo" }
+  BMC_Zones:
+    - "A: Colaba, Fort"
+    - "H: Bandra, Khar, Santacruz"
+    - "K: Andheri, Vile Parle, Jogeshwari"
+    - "P: Malad, Goregaon"
+    - "R: Kandivali, Borivali, Dahisar"
+
+# ----------------------------------------------------------
+#  TRANSPORTATION SYSTEM
+# ----------------------------------------------------------
+Transportation:
+  Local_Trains:
+    Lines:
+      - "Western Line: Churchgate → Dahanu"
+      - "Central Line: CSMT → Kasara / Khopoli"
+      - "Harbour Line: CSMT → Panvel"
+    Fast_Trains: "Skip major stations for faster service"
+    Apps: ["UTS App", "m-Indicator"]
+    Timings: "4 AM to 1 AM"
+    Daily_Passengers: "7.5 million"
+
+  Metro:
+    Operational:
+      - "Line 1: Versova–Andheri–Ghatkopar"
+      - "Line 2A: Dahisar–DN Nagar"
+      - "Line 7: Dahisar East–Andheri East"
+    Upcoming: ["Line 3: Colaba–SEEPZ", "Line 4: Wadala–Kasarvadavali"]
+
+  Monorail:
+    Route: "Chembur → Wadala → Jacob Circle"
+    Start_Year: 2019
+
+  BEST_Bus:
+    Operator: "Brihanmumbai Electric Supply and Transport"
+    App: "BEST Chalo"
+    Popular_Routes:
+      - "101: Colaba → Worli"
+      - "202: Bandra → Kurla"
+      - "305: Borivali → Andheri"
+    Min_Fare: "₹5"
+
+  Auto_Taxi:
+    Auto_Min: "₹23 (1.5 km)"
+    Taxi_Min: "₹30 (1.5 km)"
+    Apps: ["Uber", "Ola", "Rapido"]
+
+  Airports:
+    - { Name: "CSMIA", Terminals: ["T1 – Domestic", "T2 – International"], Helpline: "+91 22 6685 1010" }
+    - { Name: "Juhu Aerodrome", Use: "Private/Charter" }
+
+  Sea_Ferries:
+    - "Gateway of India → Elephanta Caves"
+    - "Bhaucha Dhakka → Mandwa"
+
+  Highways:
+    - "Western Express Highway"
+    - "Eastern Express Highway"
+    - "Bandra-Worli Sea Link"
+    - "Mumbai–Pune Expressway"
+
+# ----------------------------------------------------------
+#  HEALTHCARE SYSTEM (AREA-WISE)
+# ----------------------------------------------------------
+Healthcare:
+  Emergency_Contacts:
+    Ambulance: "108 / 102"
+    Fire: "101"
+    Police: "100"
+    Disaster: "1916"
+    Women_Helpline: "181"
+  Pharmacies_24x7: ["Wellness Forever", "Apollo Pharmacy", "Noble Plus"]
+
+  Hospitals:
+    Western_Suburbs:
+      Malad: ["Zenith Multispeciality", "Atlantis Hospital"]
+      Andheri: ["Kokilaben Ambani", "Holy Spirit", "Bellevue"]
+      Bandra: ["Lilavati", "Asian Heart Institute"]
+    Central_Mumbai:
+      Dadar: ["Hinduja Hospital", "Shushrusha"]
+      Parel: ["KEM", "Tata Memorial"]
+    South_Mumbai:
+      Colaba: ["Apollo Spectra", "INHS Asvini"]
+      Marine_Lines: ["Bombay Hospital", "Saifee"]
+    Navi_Mumbai:
+      Vashi: ["MGM", "Fortis Hiranandani"]
+
+# ----------------------------------------------------------
+#  EDUCATION (AREA-WISE)
+# ----------------------------------------------------------
+Education:
+  Western_Suburbs:
+    Malad: ["Ryan International", "Atharva College", "DSIMS"]
+    Andheri: ["NMIMS", "Bhavan’s College", "SPIT"]
+    Bandra: ["Rizvi College", "St. Andrew’s College"]
+  Central_Mumbai:
+    Dadar: ["Ruia College", "Welingkar Institute"]
+    Matunga: ["VJTI", "ICT"]
+  South_Mumbai:
+    Fort: ["St. Xavier’s College", "HR College", "KC College"]
+  Navi_Mumbai:
+    Nerul: ["SIES College", "Ryan International"]
+    Panvel: ["Pillai College of Engineering"]
+
+  Coaching_Institutes:
+    IIT_JEE: ["FIITJEE", "Allen", "PACE"]
+    MBA: ["IMS", "Career Launcher"]
+    Data_Science: ["Great Learning", "UpGrad Mumbai Center"]
+
+# ----------------------------------------------------------
+#  JOBS & BUSINESS HUBS
+# ----------------------------------------------------------
+Business_Zones:
+  South_Mumbai: ["Nariman Point", "Fort"]
+  Central: ["Lower Parel", "Worli"]
+  Western_Suburbs: ["Andheri East", "BKC", "Malad Mindspace"]
+  Navi_Mumbai: ["Vashi IT Park", "Turbhe MIDC"]
+
+Major_Companies:
+  - "TCS – SEEPZ Andheri"
+  - "Accenture – BKC"
+  - "L&T Infotech – Powai"
+  - "Reliance Industries – Dhirubhai Ambani Knowledge City"
+
+CoWorking_Spaces:
+  - "WeWork – BKC"
+  - "91Springboard – Andheri"
+  - "The Executive Centre – Nariman Point"
+
+# ----------------------------------------------------------
+#  TOURISM & ATTRACTIONS
+# ----------------------------------------------------------
+Tourism:
+  Landmarks:
+    South_Mumbai: ["Gateway of India", "Taj Mahal Palace", "Marine Drive"]
+    Western: ["Juhu Beach", "Bandra-Worli Sea Link", "ISKCON Temple"]
+    Central: ["Siddhivinayak Temple", "Haji Ali Dargah"]
+    East: ["R City Mall", "Snow Kingdom"]
+
+  Beaches: ["Juhu", "Aksa", "Versova", "Gorai"]
+  Museums: ["Dr. Bhau Daji Lad", "Chhatrapati Shivaji Vastu Sangrahalaya"]
+  Parks: ["SGNP", "Powai Lake", "Five Gardens"]
+  Festivals: ["Ganesh Chaturthi", "Kala Ghoda Arts Festival", "Diwali"]
+
+# ----------------------------------------------------------
+#  UTILITIES & SERVICES
+# ----------------------------------------------------------
+Utilities:
+  Power_Supply:
+    Providers: ["Adani Electricity", "Tata Power"]
+    Helpline: "19122"
+  Water_Supply:
+    Provider: "BMC"
+    Complaint: "1916 Ext 2"
+  Internet_Providers: ["JioFiber", "Airtel Xstream", "ACT Fibernet"]
+  Waste_Management:
+    Complaint_Portal: "MCGM portal"
+  LPG_Helpline: "1906"
+
+# ----------------------------------------------------------
+#  WEATHER & DAILY INFO
+# ----------------------------------------------------------
+Weather_Info:
+  Climate_Type: "Tropical Coastal"
+  Summer: "March to June (up to 35°C)"
+  Monsoon: "June to September (heavy rainfall)"
+  Winter: "November to February (pleasant 20–28°C)"
+  Apps: ["IMD Weather App", "AccuWeather"]
+
+# ----------------------------------------------------------
+#  HELPLINES & EMERGENCIES
+# ----------------------------------------------------------
+Helplines:
+  General:
+    Police: "100"
+    Fire: "101"
+    Ambulance: "108"
+    Disaster: "1916"
+  Women_Helpline: "181"
+  Senior_Citizens: "1291"
+  Road_Assistance: "98201 12345 (Mumbai Traffic Police)"
+  Tourist_Helpline: "1363"
+
