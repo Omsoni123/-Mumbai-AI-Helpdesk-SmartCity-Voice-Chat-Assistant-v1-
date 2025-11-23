@@ -4,7 +4,7 @@
 
 * [Overview](#-overview)
 * [Real-World Impact](#-real-world-impact)
-* [Features](#-features)
+* [Features](#- Features OF this project )
 * [Tech Stack](#-tech-stack)
 * [Installation](#-installation)
 * [Usage](#-usage)
@@ -29,7 +29,7 @@ This project helps citizens by:
 * Improving awareness about public services.
 * Supporting tourists with accurate and fast information.
 
-## 🌟 Features
+## 🌟 Features OF this project 
 
 * 🎙️ **Voice Input Support** (Speech-to-Text)
 * 🔊 **Text-to-Speech Output**
